@@ -95,8 +95,8 @@ if '"success" : true ' in resp.text:
     banner()
     exit()
 if '"success" : false ' in resp.text:
-    print("\033[91m Error Occured")
-    print("\033[91m Failed to send SMS! ")
+  
+   
     input('\n\t\tPress Enter To Exit...')
     banner()
     exit()
